@@ -1,0 +1,236 @@
+body{
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#homelogo{
+    float: left;
+}
+
+a{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+a:hover {
+    color: black;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    margin-top: 1.5%;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 14px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+     font-weight: bold;
+}
+
+p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+/*--personal identity page --*/
+
+h2{
+    color: black;
+    font-size: 30px;
+}
+
+.content{
+    border: 2px solid black;
+}
+
+img {
+    margin-left: 14%;
+}
+
+
+/*--dry bar advert page --*/
+
+.video{
+    align-content: center;
+}
+
+.videodescription{
+    margin-left: 25%;
+    width: 50%;
+    background-color: dimgray;
+    color: white;
+}
+
+/*--about me page --*/
+
+h3 {
+    font-size: 26px;
+}
+
+.left-div {
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  border-radius: 3px;
+  margin-left: 17%;
+  vertical-align: top;
+}
+
+.right-div {
+  display: inline-block;
+  max-width: 730px;
+  text-align: left;
+  padding: 30px;
+  background-color: white;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+/*--slideshow with captions --*/
+#Wrapper{
+	align-items: center;
+	background-color: #EEEFF7;
+	display: flex;
+	height: 500px;
+	justify-content: center;
+	width: 1000px;
+}
+
+#Slideshow{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+}
+
+#Slider{
+	border: 20px solid #1C1D21;
+	height: 300px;
+	overflow: hidden;
+	width: 600px;
+}
+
+#Slider img{
+	height: 300px;
+	width: 600px;
+	transition: all 1s;
+}
+
+#Arrows{
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+	position: absolute;
+	width: 600px;
+}
+
+#Arrows i{
+	background-color: rgba(255, 255, 255, .25);
+	color: #1C1D21;
+	cursor: pointer;
+	height: 30px;
+	padding: 15px;
+
+	transition: background-color .5s, color .5s;
+}
+
+#Arrows i:first-of-type{ 
+	padding-right: 20px;
+}
+
+#Arrows i:last-of-type{ 
+	padding-left: 20px;
+}
+
+#Arrows i:hover{
+	background-color: rgba(28,29,33, .75);
+	color: #EEEFF7;
+}
+
+h1{
+	color: #1C1D21;
+	font-family: righteous;
+	font-size: 2.5em;
+	padding: 20px;
+}
+
+h2{
+	color: #1C1D21;
+	font-family: "Open Sans";
+	font-size: 1.5em;
+	padding: 20px;
+}
+
+#MeLink{
+  background-color: rgba(255,255,255, 0);
+  border: 10px solid #1C1D21;
+  border-radius: 80px;
+  bottom: 20px;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  right: 20px;
+  width: 80px;
+  z-index: 2;
+  
+  transition: background-color .5s;
+}
+
+#MeLink:hover{
+  background-color: rgba(255,255,255, .25);
+}
+
+#Me{
+  border: 10px solid #1C1D21;
+  border-radius: 80px;
+  bottom: 20px;
+  height: 80px;
+  position: fixed;
+  right: 20px;
+  width: 80px;
+  z-index: 1;
+}
